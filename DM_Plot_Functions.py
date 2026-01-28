@@ -16,7 +16,7 @@ def frequency_axis(ax_x, m_lim):
     ax_x.set_xlabel(r'$f_{\rm DM}~[\rm Hz]$', fontsize = 20, labelpad=10)
     ax_x.tick_params(axis='both', which='both', direction='in')
     
-def plot_gae(m_lim, y_lim):
+def plot_gae(m_lim, y_lim): # Note: Data taken from Ciaran O'hare's AxionLimits: https://cajohare.github.io/AxionLimits/
     fig, ax = plt.subplots(1, 1)
     
     ##################################################################### QCD Axion
